@@ -1,5 +1,5 @@
 {
-  "name": "no-redux",
+  "name": "@ln613/state",
   "version": "0.5.0",
   "description": "A react/redux library which automates all redux flows including http calls, and store immutability is guaranteed. Redux becomes invisible to you, hence the name no-redux.",
   "keywords": [
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ln613/no-redux.git"
+    "url": "git+https://github.com/ln613/state.git"
   },
   "main": "dist",
   "scripts": {
