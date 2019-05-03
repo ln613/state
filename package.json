@@ -1,6 +1,6 @@
 {
   "name": "@ln613/state",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A react/redux library which automates all redux flows including http calls, and store immutability is guaranteed. Redux becomes invisible to you, hence the name no-redux.",
   "keywords": [
     "javascript",
