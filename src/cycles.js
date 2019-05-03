@@ -20,7 +20,7 @@ export default l => unnest(
                 url: a.url,
                 send: a.body,
                 category: type[1],
-                headers: { Authorization: localStorage.getItem('token') },
+                headers: type[0] === 'get' ? {} : { Authorization: localStorage.getItem('token') },
                 path: a.path,
                 params: a.params
               }
