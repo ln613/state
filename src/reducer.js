@@ -31,7 +31,8 @@ export default l => {
       error: a.error
     });
 
-    return update(state, path, a.payload, a.params || a.payload, a.method === 'patch');
+    const value = is(Function, a.payload) ? a.payload(state) : a.payload;
+    return update(state, path, value, a.params || value, a.method === 'patch');
 
     // const idx = last(path);
     // if (is(Number, idx)) {
